@@ -6,3 +6,6 @@ config SHIELD_ERGO_S1_OE_LEFT
 
 config SHIELD_ERGO_S1_OE_RIGHT
     def_bool $(shields_list_contains,ergo_s1_oe_right)
+
+config SHIELD_ERGO_S1_OE_DONGLE_PRO_MICRO
+    def_bool $(shields_list_contains,ergo_s1_oe_dongle_pro_micro)
